@@ -1,7 +1,12 @@
 const text_div = document.getElementById("text");
 const options_div = document.getElementById("options");
 
-const path = fetch("output.json");
+fetch("output.json")
+  .then((response) => response.json()) // Parsen der JSON-Datei
+  .then((data) => {
+    path = data; // Speichern des analysierten JSON-Objekts in der path-Variablen
+    setUp(path); // Aufrufen von setUp mit dem geladenen Objekt
+  });
 
 function getOnclick(path) {
   return () => {
@@ -22,5 +27,3 @@ function setUp(path) {
     }
   }
 }
-
-setUp(path);
