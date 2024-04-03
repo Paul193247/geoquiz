@@ -40,6 +40,7 @@ button {
   cursor: pointer;
   transition: background-color 0.3s;
   font-size: 18px; /* Größere Textgröße für Buttons */
+  position: relative; /* Positionierung relativ zum Eltern-Container */
 }
 
 button:hover {
@@ -48,4 +49,12 @@ button:hover {
 
 button:active {
   transform: translateY(1px);
+}
+
+.popup {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  z-index: 1000; /* Stelle sicher, dass das Pop-up über anderen Inhalten liegt */
 }
