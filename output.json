@@ -1,0 +1,341 @@
+{
+    "text": "Oklahoma City",
+    "options": [
+        {
+            "text": "Seattle",
+            "following": {
+                "text": "Seattle",
+                "options": [
+                    {
+                        "text": "Transport per Auto",
+                        "following": {
+                            "text": "Transport per Auto",
+                            "options": [
+                                {
+                                    "text": "TransAmerica Freight",
+                                    "popup": "Zeit: 1,5 Tage; Kosten pro Container: 7000\u20ac; Zuverl\u00e4ssigkeit: 2,5/5\n",
+                                    "following": {
+                                        "text": "TransAmerica Freight",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Eagle Express",
+                                    "popup": "Zeit: 2 Tage; Kosten pro Container: 9500\u20ac; Zuverl\u00e4ssigkeit 4/5  \n",
+                                    "following": {
+                                        "text": "Eagle Express",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Big Sky Transport",
+                                    "popup": "Zeit: 4 Tage; Kosten pro Container:8500\u20ac; Zuverl\u00e4ssigkeit 4/5\n",
+                                    "following": {
+                                        "text": "Big Sky Transport",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "LibertyHaulers",
+                                    "popup": "Zeit: 1 Tage; Kosten pro Container: 1000\u20ac; Zuverl\u00e4ssigkeit 1/5\n",
+                                    "following": {
+                                        "text": "LibertyHaulers",
+                                        "options": []
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "text": "Transport per Zug",
+                        "following": {
+                            "text": "Transport per Zug",
+                            "options": [
+                                {
+                                    "text": "Union Pacific Logistics",
+                                    "popup": "Zeit: 4 Tage; Kosten pro Container: 7000\u20ac; Zuverl\u00e4ssigkeit 5/5\n",
+                                    "following": {
+                                        "text": "Union Pacific Logistics",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Continental Express Rail",
+                                    "popup": "Zeit: 7 Tage; Kosten pro Container: 5000\u20ac; Zuverl\u00e4ssigkeit 3,5/5\n",
+                                    "following": {
+                                        "text": "Continental Express Rail",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Iron Horse Logistics",
+                                    "popup": "Zeit: 5 Tage; Kosten pro Container: 6000\u20ac; Zuverl\u00e4ssigkeit 4/5\n",
+                                    "following": {
+                                        "text": "Iron Horse Logistics",
+                                        "options": []
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "text": "Los Angeles/Long Beach",
+            "following": {
+                "text": "Los Angeles/Long Beach",
+                "options": [
+                    {
+                        "text": "Transport per Auto",
+                        "following": {
+                            "text": "Transport per Auto",
+                            "options": [
+                                {
+                                    "text": "TransAmerica Freight",
+                                    "popup": "Zeit: 1,5 Tage; Kosten pro Container: 7000\u20ac; Zuverl\u00e4ssigkeit: 2,5/5\n",
+                                    "following": {
+                                        "text": "TransAmerica Freight",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Eagle Express",
+                                    "popup": "Zeit: 2 Tage; Kosten pro Container: 9500\u20ac; Zuverl\u00e4ssigkeit 4/5  \n",
+                                    "following": {
+                                        "text": "Eagle Express",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Big Sky Transport",
+                                    "popup": "Zeit: 4 Tage; Kosten pro Container:8500\u20ac; Zuverl\u00e4ssigkeit 4/5\n",
+                                    "following": {
+                                        "text": "Big Sky Transport",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Freedom Trucking Co.",
+                                    "popup": "Zeit: 1 Tage; Kosten pro Container: 1000\u20ac; Zuverl\u00e4ssigkeit 1/5\n",
+                                    "following": {
+                                        "text": "Freedom Trucking Co.",
+                                        "options": []
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "text": "Transport per Zug",
+                        "following": {
+                            "text": "Transport per Zug",
+                            "options": [
+                                {
+                                    "text": "Union Pacific Logistics",
+                                    "popup": "Zeit: 4 Tage; Kosten pro Container: 7000\u20ac; Zuverl\u00e4ssigkeit 5/5\n",
+                                    "following": {
+                                        "text": "Union Pacific Logistics",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Thunderbolt Railways",
+                                    "popup": "Zeit: 7 Tage; Kosten pro Container: 5000\u20ac; Zuverl\u00e4ssigkeit 3,5/5\n",
+                                    "following": {
+                                        "text": "Thunderbolt Railways",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Iron Horse Logistics",
+                                    "popup": "Zeit: 5 Tage; Kosten pro Container: 6000\u20ac; Zuverl\u00e4ssigkeit 4/5\n",
+                                    "following": {
+                                        "text": "Iron Horse Logistics",
+                                        "options": []
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "text": "Houston",
+            "following": {
+                "text": "Houston",
+                "options": [
+                    {
+                        "text": "Transport per Auto",
+                        "following": {
+                            "text": "Transport per Auto",
+                            "options": [
+                                {
+                                    "text": "Patriot Trucking Co.",
+                                    "popup": "Zeit: 0,5 Tage; Kosten pro Container: 2500\u20ac; Zuverl\u00e4ssigkeit: 2/5\n",
+                                    "following": {
+                                        "text": "Patriot Trucking Co.",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Starline Logistics",
+                                    "popup": "Zeit: 1 Tage; Kosten pro Container: 3000\u20ac; Zuverl\u00e4ssigkeit: 4/5\n",
+                                    "following": {
+                                        "text": "Starline Logistics",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "RouteMaster Transport",
+                                    "popup": "Zeit: 1 Tage; Kosten pro Container: 3500\u20ac; Zuverl\u00e4ssigkeit: 5/5\n",
+                                    "following": {
+                                        "text": "RouteMaster Transport",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Gulfstream Goods Transport",
+                                    "popup": "Zeit: 0,3 Tage; Kosten pro Container: 500\u20ac; Zuverl\u00e4ssigkeit: 1/5\n",
+                                    "following": {
+                                        "text": "Gulfstream Goods Transport",
+                                        "options": []
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "text": "Miami",
+            "following": {
+                "text": "Miami",
+                "options": [
+                    {
+                        "text": "Transport per Auto",
+                        "following": {
+                            "text": "Transport per Auto",
+                            "options": [
+                                {
+                                    "text": "Gulfstream Goods Transport",
+                                    "popup": "Zeit: 2,5 Tage; Kosten pro Container: 4000\u20ac; Zuverl\u00e4ssigkeit: 1/5\n",
+                                    "following": {
+                                        "text": "Gulfstream Goods Transport",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "RouteMaster Transport",
+                                    "popup": "Zeit: 3,5 Tage; Kosten pro Container: 9500\u20ac; Zuverl\u00e4ssigkeit: 5/5\n",
+                                    "following": {
+                                        "text": "RouteMaster Transport",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Delta Drive Logistics",
+                                    "popup": "Zeit: 2,5 Tage; Kosten pro Container: 4500\u20ac; Zuverl\u00e4ssigkeit: 2/5\n",
+                                    "following": {
+                                        "text": "Delta Drive Logistics",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Desert Oasis Transport",
+                                    "popup": "Zeit: 3,5 Tage; Kosten pro Container: 8000\u20ac; Zuverl\u00e4ssigkeit: 4/5\n",
+                                    "following": {
+                                        "text": "Desert Oasis Transport",
+                                        "options": []
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "text": "New York City",
+            "following": {
+                "text": "New York City",
+                "options": [
+                    {
+                        "text": "Transport per Auto",
+                        "following": {
+                            "text": "Transport per Auto",
+                            "options": [
+                                {
+                                    "text": "RouteMaster Transport",
+                                    "popup": "Zeit: 3,5 Tage; Kosten pro Container: 9500\u20ac; Zuverl\u00e4ssigkeit: 5/5\n",
+                                    "following": {
+                                        "text": "RouteMaster Transport",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Big Apple Trucking Co.",
+                                    "popup": "Zeit: 3,5 Tage; Kosten pro Container: 8000\u20ac; Zuverl\u00e4ssigkeit: 4/5\n",
+                                    "following": {
+                                        "text": "Big Apple Trucking Co.",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Manhattan Movers",
+                                    "popup": "Zeit: 2,5 Tage; Kosten pro Container: 4500\u20ac; Zuverl\u00e4ssigkeit: 2/5\n",
+                                    "following": {
+                                        "text": "Manhattan Movers",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Eagle Express",
+                                    "popup": "Zeit: 2,5 Tage; Kosten pro Container: 4000\u20ac; Zuverl\u00e4ssigkeit: 1/5\n",
+                                    "following": {
+                                        "text": "Eagle Express",
+                                        "options": []
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "text": "Transport per Zug",
+                        "following": {
+                            "text": "Transport per Zug",
+                            "options": [
+                                {
+                                    "text": "Iron Horse Logistics",
+                                    "popup": "Zeit: 5 Tage; Kosten pro Container: 6000\u20ac; Zuverl\u00e4ssigkeit 4/5\n",
+                                    "following": {
+                                        "text": "Iron Horse Logistics",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Big Sky Rail Cargo",
+                                    "popup": "Zeit: 7 Tage; Kosten pro Container: 5000\u20ac; Zuverl\u00e4ssigkeit 3,5/5\n",
+                                    "following": {
+                                        "text": "Big Sky Rail Cargo",
+                                        "options": []
+                                    }
+                                },
+                                {
+                                    "text": "Liberty Line Railways",
+                                    "popup": "Zeit: 4 Tage; Kosten pro Container: 7000\u20ac; Zuverl\u00e4ssigkeit 5/5\n",
+                                    "following": {
+                                        "text": "Liberty Line Railways",
+                                        "options": []
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

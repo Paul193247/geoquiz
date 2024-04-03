@@ -1,0 +1,1805 @@
+[
+  {
+    "id": "1b3abd14-4e51-44b8-b15c-28f85b48087d",
+    "class": "sheet",
+    "rootTopic": {
+      "id": "3b1d3a81-c964-4b43-93de-0107de5409df",
+      "class": "topic",
+      "title": "Oklahoma City",
+      "attributedTitle": [{ "text": "Oklahoma City" }],
+      "structureClass": "org.xmind.ui.org-chart.down",
+      "children": {
+        "attached": [
+          {
+            "id": "852bf232-9de0-49da-a351-3235174cb74f",
+            "title": "Seattle",
+            "attributedTitle": [{ "text": "Seattle" }],
+            "children": {
+              "attached": [
+                {
+                  "id": "2ce85b5a-32bb-44fb-b387-91867f5786a0",
+                  "title": "Transport per Auto",
+                  "attributedTitle": [{ "text": "Transport per Auto" }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "0d13ccdb-e380-4587-aabf-3900bc36631d",
+                        "title": "TransAmerica Freight",
+                        "attributedTitle": [{ "text": "TransAmerica Freight" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 1,5 Tage; Kosten pro Container: 7000€; Zuverlässigkeit: 2,5/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 1,5 Tage; Kosten pro Container: 7000€; Zuverlässigkeit: 2,5/5</div>"
+                          }
+                        },
+                        "structureClass": "org.xmind.ui.brace.right"
+                      },
+                      {
+                        "id": "b27c2ef6-21e0-424e-aca2-4d2d189d9e29",
+                        "title": "Eagle Express",
+                        "attributedTitle": [{ "text": "Eagle Express" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 2 Tage; Kosten pro Container: 9500€; Zuverlässigkeit 4/5  \n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 2 Tage; Kosten pro Container: 9500€; Zuverlässigkeit 4/5 &nbsp;</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "50aab86a-1094-43df-be1c-9672b3c99d8d",
+                        "title": "Big Sky Transport",
+                        "attributedTitle": [{ "text": "Big Sky Transport" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 4 Tage; Kosten pro Container:8500€; Zuverlässigkeit 4/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 4 Tage; Kosten pro Container:8500€; Zuverlässigkeit 4/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "3fec40f1-6ac0-45db-9886-b45ca02c9263",
+                        "title": "LibertyHaulers",
+                        "attributedTitle": [{ "text": "LibertyHaulers" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 1 Tage; Kosten pro Container: 1000€; Zuverlässigkeit 1/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 1 Tage; Kosten pro Container: 1000€; Zuverlässigkeit 1/5</div>"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "889c6df3-20fb-4740-8de2-ce51dbf4ef54",
+                  "title": "Transport per Zug",
+                  "attributedTitle": [{ "text": "Transport per Zug" }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "f8e995ea-ea28-45e2-a40c-f2bec43f1d22",
+                        "title": "Union Pacific Logistics",
+                        "attributedTitle": [
+                          { "text": "Union Pacific Logistics" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 4 Tage; Kosten pro Container: 7000€; Zuverlässigkeit 5/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 4 Tage; Kosten pro Container: 7000€; Zuverlässigkeit 5/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "9f55c9ce-4bb6-439e-97ac-75cb491ba7fb",
+                        "title": "Continental Express Rail",
+                        "attributedTitle": [
+                          { "text": "Continental Express Rail" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 7 Tage; Kosten pro Container: 5000€; Zuverlässigkeit 3,5/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 7 Tage; Kosten pro Container: 5000€; Zuverlässigkeit 3,5/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "15763af6-8583-445b-9cdf-f1537e47cbd6",
+                        "title": "Iron Horse Logistics",
+                        "attributedTitle": [{ "text": "Iron Horse Logistics" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 5 Tage; Kosten pro Container: 6000€; Zuverlässigkeit 4/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 5 Tage; Kosten pro Container: 6000€; Zuverlässigkeit 4/5</div>"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "style": {
+              "id": "c1ff65c5-21b0-4333-903f-588fbfb84b19",
+              "properties": {
+                "svg:fill": "#EB4D3DFF",
+                "line-color": "#EB4D3DFF"
+              }
+            }
+          },
+          {
+            "id": "dac5b5f7-4b58-4f6f-9f93-45777dd89ce4",
+            "title": "Los Angeles/Long Beach",
+            "attributedTitle": [{ "text": "Los Angeles/Long Beach" }],
+            "children": {
+              "attached": [
+                {
+                  "id": "4198b4fa-60f5-4f13-9adf-9ccece4ee973",
+                  "title": "Transport per Auto",
+                  "attributedTitle": [{ "text": "Transport per Auto" }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "214a894b-79ce-499a-aeac-b8f96235c6d1",
+                        "title": "TransAmerica Freight",
+                        "attributedTitle": [{ "text": "TransAmerica Freight" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 1,5 Tage; Kosten pro Container: 7000€; Zuverlässigkeit: 2,5/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 1,5 Tage; Kosten pro Container: 7000€; Zuverlässigkeit: 2,5/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "cf0c92eb-532e-44df-9d88-60ad933a8c31",
+                        "title": "Eagle Express",
+                        "attributedTitle": [{ "text": "Eagle Express" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 2 Tage; Kosten pro Container: 9500€; Zuverlässigkeit 4/5  \n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 2 Tage; Kosten pro Container: 9500€; Zuverlässigkeit 4/5 &nbsp;</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "25bb4a59-1c63-4758-9daa-d42c858ad3f1",
+                        "title": "Big Sky Transport",
+                        "attributedTitle": [{ "text": "Big Sky Transport" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 4 Tage; Kosten pro Container:8500€; Zuverlässigkeit 4/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 4 Tage; Kosten pro Container:8500€; Zuverlässigkeit 4/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "6a79c154-335f-4911-80b6-83e3b589fa53",
+                        "title": "Freedom Trucking Co.",
+                        "attributedTitle": [{ "text": "Freedom Trucking Co." }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 1 Tage; Kosten pro Container: 1000€; Zuverlässigkeit 1/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 1 Tage; Kosten pro Container: 1000€; Zuverlässigkeit 1/5</div>"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "67f61c8b-5887-455a-aac3-a178f28a9462",
+                  "title": "Transport per Zug",
+                  "attributedTitle": [{ "text": "Transport per Zug" }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "d5240564-7482-463c-9db9-915c13d2764d",
+                        "title": "Union Pacific Logistics",
+                        "attributedTitle": [
+                          { "text": "Union Pacific Logistics" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 4 Tage; Kosten pro Container: 7000€; Zuverlässigkeit 5/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 4 Tage; Kosten pro Container: 7000€; Zuverlässigkeit 5/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "e4088bd0-0712-4ff3-9e99-33238f22ffff",
+                        "title": "Thunderbolt Railways",
+                        "attributedTitle": [{ "text": "Thunderbolt Railways" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 7 Tage; Kosten pro Container: 5000€; Zuverlässigkeit 3,5/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 7 Tage; Kosten pro Container: 5000€; Zuverlässigkeit 3,5/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "dc83283c-054d-4016-bb59-d9fce49680b6",
+                        "title": "Iron Horse Logistics",
+                        "attributedTitle": [{ "text": "Iron Horse Logistics" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 5 Tage; Kosten pro Container: 6000€; Zuverlässigkeit 4/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 5 Tage; Kosten pro Container: 6000€; Zuverlässigkeit 4/5</div>"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "style": {
+              "id": "f8802cf2-9412-43fb-9adc-40c39d5d6a8c",
+              "properties": {
+                "svg:fill": "#EB4D3DFF",
+                "line-color": "#EB4D3DFF"
+              }
+            }
+          },
+          {
+            "id": "76851b88-9cf3-490d-80bf-215a0983152d",
+            "title": "Houston",
+            "attributedTitle": [{ "text": "Houston" }],
+            "children": {
+              "attached": [
+                {
+                  "id": "01cd59e5-507a-4b64-8dfa-30cc57749709",
+                  "title": "Transport per Auto",
+                  "attributedTitle": [{ "text": "Transport per Auto" }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "0570419e-4b92-49b8-a07f-e6cfe29c3b1e",
+                        "title": "Patriot Trucking Co.",
+                        "attributedTitle": [{ "text": "Patriot Trucking Co." }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 0,5 Tage; Kosten pro Container: 2500€; Zuverlässigkeit: 2/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 0,5 Tage; Kosten pro Container: 2500€; Zuverlässigkeit: 2/5</div>"
+                          }
+                        },
+                        "style": {
+                          "id": "3decf753-92dc-4520-a59f-75aa1edeb0c8",
+                          "properties": { "line-color": "#EB4D3DFF" }
+                        }
+                      },
+                      {
+                        "id": "5d2218e0-2e01-4870-a041-74c85425177e",
+                        "title": "Starline Logistics",
+                        "attributedTitle": [{ "text": "Starline Logistics" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 1 Tage; Kosten pro Container: 3000€; Zuverlässigkeit: 4/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 1 Tage; Kosten pro Container: 3000€; Zuverlässigkeit: 4/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "df838c30-ed62-4cab-86b5-a5df68ceb0c9",
+                        "title": "RouteMaster Transport",
+                        "attributedTitle": [
+                          { "text": "RouteMaster Transport" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 1 Tage; Kosten pro Container: 3500€; Zuverlässigkeit: 5/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 1 Tage; Kosten pro Container: 3500€; Zuverlässigkeit: 5/5</div>"
+                          }
+                        },
+                        "style": {
+                          "id": "963c89f4-7863-4d2b-8499-87bea071094f",
+                          "properties": { "line-color": "#64C466FF" }
+                        }
+                      },
+                      {
+                        "id": "50aa1c4a-7a37-4bd7-9cd9-e5379fc00ca0",
+                        "title": "Gulfstream Goods Transport",
+                        "attributedTitle": [
+                          { "text": "Gulfstream Goods Transport" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 0,3 Tage; Kosten pro Container: 500€; Zuverlässigkeit: 1/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 0,3 Tage; Kosten pro Container: 500€; Zuverlässigkeit: 1/5</div>"
+                          }
+                        },
+                        "style": {
+                          "id": "feb5c1d5-3560-42cb-aa65-8e4221bc62df",
+                          "properties": {
+                            "line-color": "#EB4D3DFF",
+                            "border-line-color": "#EB4D3DFB"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "style": {
+              "id": "b36eb0ed-f760-4a09-ad5b-4b062d2caad5",
+              "properties": {
+                "fo:color": "#FFFFFFFF",
+                "svg:fill": "#64C466FF",
+                "line-color": "#64C466FF",
+                "border-line-color": "#FFFFFFFF"
+              }
+            }
+          },
+          {
+            "id": "d5f763c5-b14c-4613-9ec0-9a7bf726350f",
+            "title": "Miami",
+            "attributedTitle": [{ "text": "Miami" }],
+            "children": {
+              "attached": [
+                {
+                  "id": "b1fe0cc3-d68d-4a99-adca-276463306b02",
+                  "title": "Transport per Auto",
+                  "attributedTitle": [{ "text": "Transport per Auto" }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "67f42ba2-b930-4074-8726-1ca66665d429",
+                        "title": "Gulfstream Goods Transport",
+                        "attributedTitle": [
+                          { "text": "Gulfstream Goods Transport" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 2,5 Tage; Kosten pro Container: 4000€; Zuverlässigkeit: 1/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 2,5 Tage; Kosten pro Container: 4000€; Zuverlässigkeit: 1/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "b15dc3f7-07f6-4298-8446-80ceca3f46f6",
+                        "title": "RouteMaster Transport",
+                        "attributedTitle": [
+                          { "text": "RouteMaster Transport" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 3,5 Tage; Kosten pro Container: 9500€; Zuverlässigkeit: 5/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 3,5 Tage; Kosten pro Container: 9500€; Zuverlässigkeit: 5/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "1cae420c-1eb8-4a48-a137-24e09f027919",
+                        "title": "Delta Drive Logistics",
+                        "attributedTitle": [
+                          { "text": "Delta Drive Logistics" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 2,5 Tage; Kosten pro Container: 4500€; Zuverlässigkeit: 2/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 2,5 Tage; Kosten pro Container: 4500€; Zuverlässigkeit: 2/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "3b9f192d-f48e-4c04-8f2f-960574c622b9",
+                        "title": "Desert Oasis Transport",
+                        "attributedTitle": [
+                          { "text": "Desert Oasis Transport" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 3,5 Tage; Kosten pro Container: 8000€; Zuverlässigkeit: 4/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 3,5 Tage; Kosten pro Container: 8000€; Zuverlässigkeit: 4/5</div>"
+                          }
+                        },
+                        "customWidth": 194,
+                        "position": { "x": 1379.0304704751559, "y": 303 }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "style": {
+              "id": "b3d21f89-9a2f-43f5-ac20-497c4118a21b",
+              "properties": {
+                "fo:color": "#FFFFFFFF",
+                "svg:fill": "#64C466FF",
+                "line-color": "#64C466FF"
+              }
+            }
+          },
+          {
+            "id": "c5d5c39c-618c-4e76-805a-1aaf51855bcc",
+            "title": "New York City",
+            "attributedTitle": [{ "text": "New York City" }],
+            "children": {
+              "attached": [
+                {
+                  "id": "c68f16cb-1d45-46d0-ac97-85ff7e3048f4",
+                  "title": "Transport per Auto",
+                  "attributedTitle": [{ "text": "Transport per Auto" }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "1b460d5b-5807-484a-bcf1-6a2992327c9f",
+                        "title": "RouteMaster Transport",
+                        "attributedTitle": [
+                          { "text": "RouteMaster Transport" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 3,5 Tage; Kosten pro Container: 9500€; Zuverlässigkeit: 5/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 3,5 Tage; Kosten pro Container: 9500€; Zuverlässigkeit: 5/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "43ddf90d-87f1-4c20-9d59-2979fda1d9ca",
+                        "title": "Big Apple Trucking Co.",
+                        "attributedTitle": [
+                          { "text": "Big Apple Trucking Co." }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 3,5 Tage; Kosten pro Container: 8000€; Zuverlässigkeit: 4/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 3,5 Tage; Kosten pro Container: 8000€; Zuverlässigkeit: 4/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "511f3a2a-aec1-47ce-abc1-6c62cdc23383",
+                        "title": "Manhattan Movers",
+                        "attributedTitle": [{ "text": "Manhattan Movers" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 2,5 Tage; Kosten pro Container: 4500€; Zuverlässigkeit: 2/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 2,5 Tage; Kosten pro Container: 4500€; Zuverlässigkeit: 2/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "9286d02e-80c8-489d-aa45-c0c546ef9720",
+                        "title": "Eagle Express",
+                        "attributedTitle": [{ "text": "Eagle Express" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 2,5 Tage; Kosten pro Container: 4000€; Zuverlässigkeit: 1/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 2,5 Tage; Kosten pro Container: 4000€; Zuverlässigkeit: 1/5</div>"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "65339f6a-9223-4599-8933-b38ca773b279",
+                  "title": "Transport per Zug",
+                  "attributedTitle": [{ "text": "Transport per Zug" }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "8eb69823-a101-49fe-b615-c0b4b7a0dac5",
+                        "title": "Iron Horse Logistics",
+                        "attributedTitle": [{ "text": "Iron Horse Logistics" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 5 Tage; Kosten pro Container: 6000€; Zuverlässigkeit 4/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 5 Tage; Kosten pro Container: 6000€; Zuverlässigkeit 4/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "cccb5ca5-bede-48b2-ad56-e245b5a8a655",
+                        "title": "Big Sky Rail Cargo",
+                        "attributedTitle": [{ "text": "Big Sky Rail Cargo" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 7 Tage; Kosten pro Container: 5000€; Zuverlässigkeit 3,5/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 7 Tage; Kosten pro Container: 5000€; Zuverlässigkeit 3,5/5</div>"
+                          }
+                        }
+                      },
+                      {
+                        "id": "d0c906a4-460e-475c-905c-96eaa678c3da",
+                        "title": "Liberty Line Railways",
+                        "attributedTitle": [
+                          { "text": "Liberty Line Railways" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Zeit: 4 Tage; Kosten pro Container: 7000€; Zuverlässigkeit 5/5\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Zeit: 4 Tage; Kosten pro Container: 7000€; Zuverlässigkeit 5/5</div>"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "style": {
+              "id": "15b2f0f5-838e-4570-8b82-349fa73caed6",
+              "properties": {
+                "fo:color": "#FFFFFFFF",
+                "svg:fill": "#64C466FF",
+                "line-color": "#64C466FF"
+              }
+            }
+          }
+        ],
+        "detached": [
+          {
+            "id": "be323e3c-7db9-4f09-98e2-2e85a2a60a17",
+            "title": "Seattle ",
+            "attributedTitle": [{ "text": "Seattle " }],
+            "position": { "x": -2902.7212471555495, "y": 463.51173073884917 },
+            "structureClass": "org.xmind.ui.org-chart.down",
+            "children": {
+              "attached": [
+                {
+                  "id": "f9c4b1dd-9454-49c7-8555-6ddc503c7679",
+                  "title": "Transport per Luftfracht ",
+                  "attributedTitle": [{ "text": "Transport per Luftfracht " }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "f7f4e9ff-5b4a-4ea0-bcba-56317b876dc6",
+                        "title": "Flughafen Everett Paine Field",
+                        "attributedTitle": [
+                          { "text": "Flughafen Everett Paine Field" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 3000€, Dauer der Lagerung am Flughafen: 2,5 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 3000€, Dauer der Lagerung am Flughafen: 2,5 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "4ab048c7-f01a-41ba-b8e4-db2436e7009d",
+                              "title": "Kein Direktflug nach Kairo ",
+                              "attributedTitle": [
+                                { "text": "Kein Direktflug nach Kairo " }
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "c29e3aa9-8f91-4470-8bec-842c6d912210",
+                        "title": "King County International Airport",
+                        "attributedTitle": [
+                          { "text": "King County International Airport" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 4500€, Dauer der Lagerung am Flughafen: 2 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 4500€, Dauer der Lagerung am Flughafen: 2 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "445bdbbb-f030-4cb4-904c-d6edc99e6776",
+                              "title": "Kein Direktflug nach Kairo",
+                              "attributedTitle": [
+                                { "text": "Kein Direktflug nach Kairo" }
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "3120722f-4dea-41b4-b745-2cdfbc3e58fc",
+                        "title": "Seattle/Tacoma International Airport",
+                        "attributedTitle": [
+                          { "text": "Seattle/Tacoma International Airport" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 1500€, Dauer der Lagerung am Flughafen: 5,5 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 1500€, Dauer der Lagerung am Flughafen: 5,5 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "9dd0f18c-2409-459b-830b-89fa828dca05",
+                              "title": "Boeing 747 non Stop nach Kairo",
+                              "attributedTitle": [
+                                { "text": "Boeing 747 non Stop nach Kairo" }
+                              ],
+                              "notes": {
+                                "plain": {
+                                  "content": "Kosten pro Container: 25000€, Dauer: 1,5 Tage, Kapazität des Flugzeugs: 6 Container Fracht\n"
+                                },
+                                "realHTML": {
+                                  "content": "<div>Kosten pro Container: 25000€, Dauer: 1,5 Tage, Kapazität des Flugzeugs: 6 Container Fracht</div>"
+                                }
+                              }
+                            },
+                            {
+                              "id": "6354e872-6e6a-4762-b266-d2290e97bd70",
+                              "title": "Airbus Beluga XL non Stop nach Kairo",
+                              "attributedTitle": [
+                                {
+                                  "text": "Airbus Beluga XL non Stop nach Kairo"
+                                }
+                              ],
+                              "notes": {
+                                "plain": {
+                                  "content": "Kosten pro Container: 30.000 €, Dauer: 10 Tage, Kapazität: 130 Container Fracht \n"
+                                },
+                                "realHTML": {
+                                  "content": "<div>Kosten pro Container: 30.000 €, Dauer: 10 Tage, Kapazität: 130 Container Fracht&nbsp;</div>"
+                                }
+                              },
+                              "customWidth": 307,
+                              "position": {
+                                "x": -1562.732749572589,
+                                "y": 559.6962126274648
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "style": {
+                    "id": "bddbe79d-ef8b-4025-8130-72f2ae4bb5ee",
+                    "properties": { "line-color": "#EB4D3DFF" }
+                  }
+                },
+                {
+                  "id": "a811c2e6-25c2-45d6-aaed-676f98578030",
+                  "title": "Transport per Seefracht",
+                  "attributedTitle": [{ "text": "Transport per Seefracht" }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "8c528a22-600b-4bb7-8059-c6602c95f0a9",
+                        "title": "Washington United Terminals",
+                        "attributedTitle": [
+                          { "text": "Washington United Terminals" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 1000€, Dauer der Lagerung am Terminal: 3 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 1000€, Dauer der Lagerung am Terminal: 3 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "157b679b-9f26-4b7e-bc65-190a21ae4863",
+                              "title": "kein Schiff",
+                              "attributedTitle": [{ "text": "kein Schiff" }]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "c60ef4d2-11f2-40bc-9723-7c344c27aefb",
+                        "title": "Terminal 5",
+                        "attributedTitle": [{ "text": "Terminal 5" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 1500€, Dauer der Lagerung am Terminal: 3 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 1500€, Dauer der Lagerung am Terminal: 3 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "f30686c2-6aa8-44ec-a2ae-367c1b564149",
+                              "title": "kein Schiff",
+                              "attributedTitle": [{ "text": "kein Schiff" }]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "e4f65546-58ae-4097-a8ac-65fe7eb0a4ff",
+                        "title": "Container Terminal 18",
+                        "attributedTitle": [
+                          { "text": "Container Terminal 18" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 1500€, Dauer der Lagerung am Terminal: 2,5 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 1500€, Dauer der Lagerung am Terminal: 2,5 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "549db309-7598-4454-b4ba-ac8e78514075",
+                              "title": "Die Laust Maersk",
+                              "attributedTitle": [
+                                { "text": "Die Laust Maersk" }
+                              ],
+                              "notes": {
+                                "plain": {
+                                  "content": "von Seattle nach Port Said, Kosten pro Container: 10000€, Dauer: 56 Tage\n"
+                                },
+                                "realHTML": {
+                                  "content": "<div>von Seattle nach Port Said, Kosten pro Container: 10000€, Dauer: 56 Tage</div>"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "style": {
+                    "id": "79235b34-43b3-4147-8787-b4ca22249e0d",
+                    "properties": {
+                      "line-color": "#EB4D3DFF",
+                      "border-line-color": "#EB4D3DFF"
+                    }
+                  }
+                }
+              ]
+            },
+            "style": {
+              "id": "e886f86b-1b99-417b-ad9d-8854f1b3a790",
+              "properties": { "svg:fill": "#EB4D3DFF" }
+            }
+          },
+          {
+            "id": "2b1f19d1-c0fb-463b-be79-75f69e3f65a4",
+            "title": "Los Angeles/Long Beach",
+            "attributedTitle": [{ "text": "Los Angeles/Long Beach" }],
+            "position": { "x": -1883.8257511516367, "y": 1410.1053050361963 },
+            "structureClass": "org.xmind.ui.org-chart.down",
+            "children": {
+              "attached": [
+                {
+                  "id": "b4992149-58c2-4595-aa32-e95833b975b4",
+                  "title": "Transport per Luftfracht",
+                  "attributedTitle": [{ "text": "Transport per Luftfracht" }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "5c9e8e71-a6fa-4bff-8070-7e1796fd5c50",
+                        "title": "Los Angeles International Airport",
+                        "attributedTitle": [
+                          { "text": "Los Angeles International Airport" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 4000€, Dauer der Lagerung am Flughafen: 2 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 4000€, Dauer der Lagerung am Flughafen: 2 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "6789c6e3-8c4b-4391-9ee3-3830ff011848",
+                              "title": "Airbus A380 non stop nach Kairo",
+                              "attributedTitle": [
+                                { "text": "Airbus A380 non stop nach Kairo" }
+                              ],
+                              "notes": {
+                                "plain": {
+                                  "content": "Kosten pro Container: 27000€, Dauer: 3,5 Tage, Kapazität des Flugzeugs: 8 Container Fracht\n"
+                                },
+                                "realHTML": {
+                                  "content": "<div>Kosten pro Container: 27000€, Dauer: 3,5 Tage, Kapazität des Flugzeugs: 8 Container Fracht</div>"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "9a251458-bee8-419a-8cd9-f7564f362ecb",
+                        "title": "John Wayne Airport",
+                        "attributedTitle": [{ "text": "John Wayne Airport" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 3500€, Dauer der Lagerung am Flughafen: 4 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 3500€, Dauer der Lagerung am Flughafen: 4 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "a2a3107f-4634-4c53-91b8-f154d2625135",
+                              "title": "kein Direktflug nach Kairo ",
+                              "attributedTitle": [
+                                { "text": "kein Direktflug nach Kairo " }
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "2c8cdc53-4cc5-4840-b6f0-2c66dcadd751",
+                        "title": "Long Beach Airport",
+                        "attributedTitle": [{ "text": "Long Beach Airport" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 5000€, Dauer der Lagerung am Flughafen: 1,5 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 5000€, Dauer der Lagerung am Flughafen: 1,5 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "13056db0-fa12-4806-ab2d-1fd7ad1e678b",
+                              "title": "Airbus Beluga XL non Stop nach Kairo",
+                              "attributedTitle": [
+                                {
+                                  "text": "Airbus Beluga XL non Stop nach Kairo"
+                                }
+                              ],
+                              "notes": {
+                                "plain": {
+                                  "content": "Kosten pro Container: 40.000 €, Dauer: 5 Tage, Kapazität: 130 Container Fracht\n"
+                                },
+                                "realHTML": {
+                                  "content": "<div>Kosten pro Container: 40.000 €, Dauer: 5 Tage, Kapazität: 130 Container Fracht</div>"
+                                }
+                              }
+                            },
+                            {
+                              "id": "2c1ba513-9da0-45c5-9063-cb5d3edfe845",
+                              "title": "Boeing 747 Dreamlifter non Stop nach TelAviv",
+                              "attributedTitle": [
+                                {
+                                  "text": "Boeing 747 Dreamlifter non Stop nach TelAviv"
+                                }
+                              ],
+                              "notes": {
+                                "plain": {
+                                  "content": "Kosten pro Container: 35.000 €, Dauer: 7 Tage, Kapazität: 100 Container Fracht \n"
+                                },
+                                "realHTML": {
+                                  "content": "<div>Kosten pro Container: 35.000 €, Dauer: 7 Tage, Kapazität: 100 Container Fracht&nbsp;</div>"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "aa51f324-136e-4a1c-bb2f-f63fd6705a8c",
+                  "title": "Transport per Seefracht ",
+                  "attributedTitle": [{ "text": "Transport per Seefracht " }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "1561b5f4-f1e7-46c0-8cde-4ad54f6fcb0e",
+                        "title": "Pacific Container Terminal",
+                        "attributedTitle": [
+                          { "text": "Pacific Container Terminal" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 3000€, Dauer der Lagerung am Terminal: 2,5 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 3000€, Dauer der Lagerung am Terminal: 2,5 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "32c88970-6b07-4867-b7f8-6842ca7e568d",
+                              "title": "kein Schiff",
+                              "attributedTitle": [{ "text": "kein Schiff" }]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "964b6b9b-a297-4be3-9178-9d80e647e1f3",
+                        "title": "Long Beach Terminal",
+                        "attributedTitle": [{ "text": "Long Beach Terminal" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 1000€, Dauer der Lagerung am Terminal: 2 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 1000€, Dauer der Lagerung am Terminal: 2 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "966e20f8-fcde-4fa6-86f4-59e844a2ea5a",
+                              "title": "Hapag-Lloyd Busan Express ",
+                              "attributedTitle": [
+                                { "text": "Hapag-Lloyd Busan Express " }
+                              ],
+                              "notes": {
+                                "plain": {
+                                  "content": "von LA nach Port Said, Kosten pro Container: 10000€, Dauer: 50 Tage\n"
+                                },
+                                "realHTML": {
+                                  "content": "<div>von LA nach Port Said, Kosten pro Container: 10000€, Dauer: 50 Tage</div>"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "189db05f-3ad4-4a97-b7d3-9255c6125f21",
+                        "title": "West Basin Container Terminal",
+                        "attributedTitle": [
+                          { "text": "West Basin Container Terminal" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 5000€, Dauer der Lagerung am Terminal: 2,5 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 5000€, Dauer der Lagerung am Terminal: 2,5 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "5f0bc362-58c1-41ad-abfc-f65ec8098601",
+                              "title": "kein Schiff",
+                              "attributedTitle": [{ "text": "kein Schiff" }]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "2619c771-8f1d-43f0-81d1-880645ad62c2",
+                        "title": "Fenix terminal",
+                        "attributedTitle": [{ "text": "Fenix terminal" }],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 2000€, Dauer der Lagerung am Terminal: 5 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 2000€, Dauer der Lagerung am Terminal: 5 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "6cdd9ac8-11e6-4220-b7b6-79b8447525e8",
+                              "title": "Die MSC Oscar",
+                              "attributedTitle": [{ "text": "Die MSC Oscar" }],
+                              "notes": {
+                                "plain": {
+                                  "content": "von LA nach Port Said, Kosten pro Container: 12000€, Dauer: 47 Tage\n"
+                                },
+                                "realHTML": {
+                                  "content": "<div>von LA nach Port Said, Kosten pro Container: 12000€, Dauer: 47 Tage</div>"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "style": {
+              "id": "835ae9c2-d191-4de1-8dde-3d740739122f",
+              "properties": {
+                "svg:fill": "#EB4D3DFF",
+                "line-color": "#EB4D3DFF"
+              }
+            }
+          },
+          {
+            "id": "9fdc58f6-62a2-4ea8-91f9-b3798712493e",
+            "title": "Houston",
+            "attributedTitle": [{ "text": "Houston" }],
+            "position": { "x": 158.652278429573, "y": 406.27773110023816 },
+            "structureClass": "org.xmind.ui.org-chart.down",
+            "children": {
+              "attached": [
+                {
+                  "id": "a1b6b574-fed3-45e5-a16e-e7a8847241b0",
+                  "title": "Transport per Luftfracht",
+                  "attributedTitle": [{ "text": "Transport per Luftfracht" }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "8e9b913c-acd4-4fa0-adb3-d691fae906a7",
+                        "title": "George Bush Intercontinental Airport",
+                        "attributedTitle": [
+                          { "text": "George Bush Intercontinental Airport" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 4000€, Dauer der Lagerung am Flughafen: 2 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 4000€, Dauer der Lagerung am Flughafen: 2 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "94d771c6-4ad9-46e7-97c7-fd5e67f64692",
+                              "title": "Airbus A300 Beluga",
+                              "attributedTitle": [
+                                { "text": "Airbus A300 Beluga" }
+                              ],
+                              "notes": {
+                                "plain": {
+                                  "content": "Kosten pro Container: 35.000 €, Dauer: 5 Tage, Kapazität: 95 Container Fracht\n"
+                                },
+                                "realHTML": {
+                                  "content": "<div>Kosten pro Container: 35.000 €, Dauer: 5 Tage, Kapazität: 95 Container Fracht</div>"
+                                }
+                              }
+                            },
+                            {
+                              "id": "845486ed-a0ee-48ad-9af4-2c72e17e9429",
+                              "title": "Boeing 747-8F",
+                              "attributedTitle": [{ "text": "Boeing 747-8F" }],
+                              "notes": {
+                                "plain": {
+                                  "content": "Kosten pro Container: 30.000 €, Dauer: 8 Tage, Kapazität: 85 Container Fracht\n"
+                                },
+                                "realHTML": {
+                                  "content": "<div>Kosten pro Container: 30.000 €, Dauer: 8 Tage, Kapazität: 85 Container Fracht</div>"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "6fb3ede0-e763-48e5-8feb-6f7676d29c2d",
+                        "title": "William P. Hobby Airport",
+                        "attributedTitle": [
+                          { "text": "William P. Hobby Airport" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 3500€, Dauer der Lagerung am Flughafen: 4 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 3500€, Dauer der Lagerung am Flughafen: 4 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "dc6196e9-ad7f-4947-94a8-69304726de45",
+                              "title": "Boeing 737 Max 8 ",
+                              "attributedTitle": [
+                                { "text": "Boeing 737 Max 8 " }
+                              ],
+                              "notes": {
+                                "plain": {
+                                  "content": "Kosten pro Container: 35.000 €, Dauer: 4 Tage, Kapazität: 9 Container Fracht\n"
+                                },
+                                "realHTML": {
+                                  "content": "<div>Kosten pro Container: 35.000 €, Dauer: 4 Tage, Kapazität: 9 Container Fracht</div>"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "style": {
+                          "id": "1dfbb680-7286-4aa2-8452-ce2edc152899",
+                          "properties": { "line-color": "#EB4D3DFF" }
+                        }
+                      }
+                    ]
+                  },
+                  "style": {
+                    "id": "517afb0e-9c14-48fd-ac0c-8fe3cefb39db",
+                    "properties": { "line-color": "#64C466FF" }
+                  }
+                },
+                {
+                  "id": "2a479df0-2088-4fa5-87b4-bfbfd2009348",
+                  "title": "Transport per Seefracht",
+                  "attributedTitle": [{ "text": "Transport per Seefracht" }],
+                  "children": {
+                    "attached": [
+                      {
+                        "id": "5a30276e-d096-49b7-9fc7-8b5c56c69f8b",
+                        "title": "Bayport Container Terminal",
+                        "attributedTitle": [
+                          { "text": "Bayport Container Terminal" }
+                        ],
+                        "notes": {
+                          "plain": {
+                            "content": "Kosten pro Tag pro Container: 2500€, Dauer der Lagerung am Terminal: 2,5 Tage\n"
+                          },
+                          "realHTML": {
+                            "content": "<div>Kosten pro Tag pro Container: 2500€, Dauer der Lagerung am Terminal: 2,5 Tage</div>"
+                          }
+                        },
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "3f0e7702-b2ed-4291-ad3d-8de87fa2c47a",
+                              "title": "Hapag Lloyd Berlin Express",
+                              "attributedTitle": [
+                                { "text": "Hapag Lloyd Berlin Express" }
+                              ]
+                            },
+                            {
+                              "id": "3e32b388-e5a1-4473-8766-e4c2f1d6c6ac",
+                              "title": "Evergreen Ever Living",
+                              "attributedTitle": [
+                                { "text": "Evergreen Ever Living" }
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "2df6bd88-17be-44f2-9f66-50cd811fd7f2",
+                        "title": "Barbours Cut Terminal",
+                        "attributedTitle": [
+                          { "text": "Barbours Cut Terminal" }
+                        ],
+                        "children": {
+                          "attached": [
+                            {
+                              "id": "4023a84b-afb5-4415-9fc8-01e9d164255d",
+                              "title": "CMA CGM Cassiopeia",
+                              "attributedTitle": [
+                                { "text": "CMA CGM Cassiopeia" }
+                              ]
+                            },
+                            {
+                              "id": "f669d0c0-8b37-4c60-b2ba-168759799952",
+                              "title": "COSCO Shipping Star",
+                              "attributedTitle": [
+                                { "text": "COSCO Shipping Star" }
+                              ],
+                              "style": {
+                                "id": "3d911f2a-2330-4b4e-b802-ea0efbaaaa24",
+                                "properties": { "line-color": "#EB4D3DFF" }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "style": {
+                    "id": "00fc0d51-3f92-4bf9-8cb3-38805d39f1e0",
+                    "properties": {
+                      "svg:fill": "#FFFFFFFF",
+                      "line-color": "#64C466FF",
+                      "border-line-color": "#64C466FF"
+                    }
+                  }
+                }
+              ]
+            },
+            "style": {
+              "id": "f3b72933-e137-455a-9ceb-eb46afe3285c",
+              "properties": { "fo:color": "#FFFFFFFF", "svg:fill": "#64C466FF" }
+            }
+          },
+          {
+            "id": "bce0730d-0f66-437c-a62d-b2b559e0c6e5",
+            "title": "Verspätung",
+            "attributedTitle": [{ "text": "Verspätung" }],
+            "notes": {
+              "plain": {
+                "content": "Patriot Trucking Co. meldet das aufgrund von fehlenden Ressourcen seitens des Unternehmens drei der 10 Container mit 8 Tagen Verspätung (sprich nach 8,5 Tagen) in Housten angekommen sind (Zuverlässigkeit 2/5)\n"
+              },
+              "realHTML": {
+                "content": "<div>Patriot Trucking Co. meldet das aufgrund von fehlenden Ressourcen seitens des Unternehmens drei der 10 Container mit 8 Tagen Verspätung (sprich nach 8,5 Tagen) in Housten angekommen sind (Zuverlässigkeit 2/5)</div>"
+              }
+            },
+            "position": { "x": -133.4352243939435, "y": 412.4275749195346 },
+            "structureClass": "org.xmind.ui.org-chart.down",
+            "style": {
+              "id": "4a95bfc6-1e79-4dab-9ead-adc88d223301",
+              "properties": { "svg:fill": "#EB4D3DFF", "fill-pattern": "solid" }
+            }
+          },
+          {
+            "id": "1fd58802-6bf2-4cc2-8092-37ca5ee5b300",
+            "title": " Beschlagnahmt ",
+            "attributedTitle": [{ "text": " Beschlagnahmt " }],
+            "notes": {
+              "plain": {
+                "content": "Aufgrund fehlender Fahrzeug - und Personalpapiere eines Mitarbeiters von Golfstream Goods Transport wurden 2 der 10 Container bei einer Polizeikontrolle beschlagnahmt (Zuverlässigkeit 1/5).  \n"
+              },
+              "realHTML": {
+                "content": "<div>Aufgrund fehlender Fahrzeug - und Personalpapiere eines Mitarbeiters von Golfstream Goods Transport wurden 2 der 10 Container bei einer Polizeikontrolle beschlagnahmt (Zuverlässigkeit 1/5). &nbsp;</div>"
+              }
+            },
+            "position": { "x": 453.1271470671737, "y": 398.68276207931143 },
+            "structureClass": "org.xmind.ui.org-chart.down",
+            "style": {
+              "id": "193351a5-3d45-4eff-88b2-429ba454de99",
+              "properties": { "svg:fill": "#EB4D3DFF" }
+            }
+          },
+          {
+            "id": "7bd357c5-75ef-4b2b-a095-5da780cbfd04",
+            "title": "Kairo",
+            "attributedTitle": [{ "text": "Kairo" }],
+            "position": { "x": -391.9724854170023, "y": 692.2243697641975 },
+            "style": {
+              "id": "671e2ff4-433d-4517-8d61-b8166852fb0b",
+              "properties": { "fo:color": "#FEFFFFFF", "svg:fill": "#64C466FF" }
+            }
+          },
+          {
+            "id": "30efd057-1726-4348-8299-d48a16f78d22",
+            "title": "Kairo",
+            "attributedTitle": [{ "text": "Kairo" }],
+            "position": { "x": -524.0348159498326, "y": 632.5312704468676 },
+            "style": {
+              "id": "03f942fc-af1b-467a-a6f0-def2f4c5354b",
+              "properties": { "fo:color": "#FFFFFFFF", "svg:fill": "#64C466FF" }
+            }
+          },
+          {
+            "id": "d00d50ab-4bdb-421f-838b-11c6afd947a6",
+            "title": "Port Said",
+            "attributedTitle": [{ "text": "Port Said" }],
+            "position": { "x": 365.77873679247983, "y": 774.0894885641998 },
+            "structureClass": "org.xmind.ui.org-chart.down",
+            "children": {
+              "attached": [
+                {
+                  "id": "c34f6049-87fc-41a1-b8a8-96d6cd5af4cd",
+                  "title": "Nile Transport Solutions",
+                  "attributedTitle": [{ "text": "Nile Transport Solutions" }]
+                },
+                {
+                  "id": "f2c8432f-8e43-4195-b011-6d0d4543fcde",
+                  "title": "Luxor Logistics Group",
+                  "attributedTitle": [{ "text": "Luxor Logistics Group" }]
+                }
+              ]
+            },
+            "style": {
+              "id": "1facb0ea-8c77-49a2-bd67-6bd17512420e",
+              "properties": { "fo:color": "#FFFFFFFF", "svg:fill": "#64C466FF" }
+            }
+          },
+          {
+            "id": "51fd17b1-0f31-4a02-821f-b8f6c6ca7291",
+            "title": "Port de Tanger Med II",
+            "attributedTitle": [{ "text": "Port de Tanger Med II" }],
+            "position": { "x": 729.9272245215294, "y": 660.7855067027728 },
+            "style": {
+              "id": "eb469662-dd48-4682-b13b-3ad0cb97ed12",
+              "properties": { "svg:fill": "#EB4D3DFF" }
+            }
+          },
+          {
+            "id": "e44ea507-9c9b-49b3-8a51-893b6525dffd",
+            "title": "Kairo",
+            "attributedTitle": [{ "text": "Kairo" }],
+            "position": { "x": 281.47683170901036, "y": 982.4264520850151 },
+            "style": {
+              "id": "5e50923e-7826-435a-9da4-948d9160947a",
+              "properties": {
+                "fo:color": "#FFFFFFFF",
+                "svg:fill": "#64C466FF",
+                "border-line-color": "#64C466FF"
+              }
+            }
+          },
+          {
+            "id": "30558bc4-59e4-449d-8edc-7cbccc1451e9",
+            "title": "Kairo",
+            "attributedTitle": [{ "text": "Kairo" }],
+            "position": { "x": 443.07287215698307, "y": 998.628693607503 },
+            "style": {
+              "id": "55a43c13-40c6-43ac-8bf5-cbe5d083c03e",
+              "properties": { "fo:color": "#FFFFFFFF", "svg:fill": "#64C466FF" }
+            }
+          },
+          {
+            "id": "02aa1ca5-8ea1-42f4-b1cc-3088be4299e7",
+            "title": "Miami",
+            "attributedTitle": [{ "text": "Miami" }],
+            "position": { "x": 1490.3124346436355, "y": 1046.1379420235799 },
+            "style": {
+              "id": "b11ce5d0-9074-4eee-b703-e800d8656d40",
+              "properties": { "fo:color": "#FFFFFFFF", "svg:fill": "#64C466FF" }
+            }
+          }
+        ]
+      },
+      "style": {
+        "id": "c8d9539d-5127-4252-9fd5-95ccf0726c1a",
+        "properties": { "alignment-by-level": "inactived" }
+      }
+    },
+    "relationships": [
+      {
+        "id": "c95b7642-f75a-44f5-b4a6-c5711d7f65a3",
+        "end1Id": "f8e995ea-ea28-45e2-a40c-f2bec43f1d22",
+        "end2Id": "be323e3c-7db9-4f09-98e2-2e85a2a60a17"
+      },
+      {
+        "id": "a21a6078-40a2-4866-823a-7c733828e3b7",
+        "end1Id": "9f55c9ce-4bb6-439e-97ac-75cb491ba7fb",
+        "end2Id": "be323e3c-7db9-4f09-98e2-2e85a2a60a17",
+        "lineEndPoints": {
+          "1": { "x": 53.41022007576953, "y": -24.448106313732865 }
+        }
+      },
+      {
+        "id": "f0c81e34-74ad-4b42-b8f7-4fb4a92f2492",
+        "end1Id": "15763af6-8583-445b-9cdf-f1537e47cbd6",
+        "end2Id": "be323e3c-7db9-4f09-98e2-2e85a2a60a17"
+      },
+      {
+        "id": "bda950ab-9424-409c-8ddf-71cc382e5fc6",
+        "end1Id": "50aab86a-1094-43df-be1c-9672b3c99d8d",
+        "end2Id": "be323e3c-7db9-4f09-98e2-2e85a2a60a17",
+        "lineEndPoints": {
+          "1": { "x": -53.98977992423147, "y": -30.04810631373317 }
+        }
+      },
+      {
+        "id": "3df1c31f-720c-43e2-9470-340018d14f66",
+        "end1Id": "b27c2ef6-21e0-424e-aca2-4d2d189d9e29",
+        "end2Id": "be323e3c-7db9-4f09-98e2-2e85a2a60a17",
+        "lineEndPoints": {
+          "1": { "x": -67.58977992423138, "y": -21.74810631373316 }
+        }
+      },
+      {
+        "id": "e4672d5b-6db6-4060-82e8-3da3034ebc03",
+        "end1Id": "0d13ccdb-e380-4587-aabf-3900bc36631d",
+        "end2Id": "be323e3c-7db9-4f09-98e2-2e85a2a60a17",
+        "lineEndPoints": {
+          "1": { "x": -57.61485820175653, "y": 2.321760703940697 }
+        }
+      },
+      {
+        "id": "594f610c-5cc6-4cad-885f-6217d599a9f3",
+        "end1Id": "214a894b-79ce-499a-aeac-b8f96235c6d1",
+        "end2Id": "2b1f19d1-c0fb-463b-be79-75f69e3f65a4"
+      },
+      {
+        "id": "7e4db042-33a8-4954-866d-a509aaa3fad8",
+        "end1Id": "cf0c92eb-532e-44df-9d88-60ad933a8c31",
+        "end2Id": "2b1f19d1-c0fb-463b-be79-75f69e3f65a4"
+      },
+      {
+        "id": "2284a00b-b01a-4e38-8d7f-57080628e4ca",
+        "end1Id": "25bb4a59-1c63-4758-9daa-d42c858ad3f1",
+        "end2Id": "2b1f19d1-c0fb-463b-be79-75f69e3f65a4"
+      },
+      {
+        "id": "06f6590d-083a-4e85-b54d-b80d809da2c8",
+        "end1Id": "d5240564-7482-463c-9db9-915c13d2764d",
+        "end2Id": "2b1f19d1-c0fb-463b-be79-75f69e3f65a4"
+      },
+      {
+        "id": "8cf1dff5-cb26-470b-ad23-442fa7cf33af",
+        "end1Id": "e4088bd0-0712-4ff3-9e99-33238f22ffff",
+        "end2Id": "2b1f19d1-c0fb-463b-be79-75f69e3f65a4"
+      },
+      {
+        "id": "e306b384-e521-4f3a-891a-66978d5a6cf7",
+        "end1Id": "dc83283c-054d-4016-bb59-d9fce49680b6",
+        "end2Id": "2b1f19d1-c0fb-463b-be79-75f69e3f65a4"
+      },
+      {
+        "id": "bb570eec-006e-4dd8-9935-f9c6f93bb2df",
+        "end1Id": "5d2218e0-2e01-4870-a041-74c85425177e",
+        "end2Id": "9fdc58f6-62a2-4ea8-91f9-b3798712493e"
+      },
+      {
+        "id": "b1e56f2a-dbd1-479b-98a7-54e584d3b6e4",
+        "end1Id": "df838c30-ed62-4cab-86b5-a5df68ceb0c9",
+        "end2Id": "9fdc58f6-62a2-4ea8-91f9-b3798712493e"
+      },
+      {
+        "id": "9c118cc8-d9db-4f57-8d9a-77030784fca8",
+        "end1Id": "0570419e-4b92-49b8-a07f-e6cfe29c3b1e",
+        "end2Id": "bce0730d-0f66-437c-a62d-b2b559e0c6e5"
+      },
+      {
+        "id": "15246c70-acf5-426e-8f14-fec5c57919a6",
+        "end1Id": "bce0730d-0f66-437c-a62d-b2b559e0c6e5",
+        "end2Id": "9fdc58f6-62a2-4ea8-91f9-b3798712493e"
+      },
+      {
+        "id": "694b44da-e9c5-4c70-9f91-fffe636b15ce",
+        "end1Id": "50aa1c4a-7a37-4bd7-9cd9-e5379fc00ca0",
+        "end2Id": "1fd58802-6bf2-4cc2-8092-37ca5ee5b300"
+      },
+      {
+        "id": "4ada033e-423c-439c-a9c0-d986d13fb4e5",
+        "end1Id": "845486ed-a0ee-48ad-9af4-2c72e17e9429",
+        "end2Id": "7bd357c5-75ef-4b2b-a095-5da780cbfd04"
+      },
+      {
+        "id": "438def8d-10b8-44cf-9b3a-615603c9a1bb",
+        "end1Id": "94d771c6-4ad9-46e7-97c7-fd5e67f64692",
+        "end2Id": "30efd057-1726-4348-8299-d48a16f78d22"
+      },
+      {
+        "id": "2446c09c-050d-43d0-a19b-1b0bef8b77a0",
+        "end1Id": "3f0e7702-b2ed-4291-ad3d-8de87fa2c47a",
+        "end2Id": "d00d50ab-4bdb-421f-838b-11c6afd947a6"
+      },
+      {
+        "id": "d7279f2c-3d1f-45e4-8e03-f6e96e0c0ee2",
+        "end1Id": "3e32b388-e5a1-4473-8766-e4c2f1d6c6ac",
+        "end2Id": "d00d50ab-4bdb-421f-838b-11c6afd947a6"
+      },
+      {
+        "id": "e0e47323-2981-443f-bc7f-06ffa95320d1",
+        "end1Id": "4023a84b-afb5-4415-9fc8-01e9d164255d",
+        "end2Id": "d00d50ab-4bdb-421f-838b-11c6afd947a6"
+      },
+      {
+        "id": "c368ae21-57e1-4266-b9ed-aa0a1d2abab4",
+        "end1Id": "f669d0c0-8b37-4c60-b2ba-168759799952",
+        "end2Id": "51fd17b1-0f31-4a02-821f-b8f6c6ca7291"
+      },
+      {
+        "id": "1f7e751b-7cae-42c3-84f4-f6d57c491cd7",
+        "end1Id": "c34f6049-87fc-41a1-b8a8-96d6cd5af4cd",
+        "end2Id": "e44ea507-9c9b-49b3-8a51-893b6525dffd"
+      },
+      {
+        "id": "7abc8e13-4b10-40c6-8592-cc3793802984",
+        "end1Id": "f2c8432f-8e43-4195-b011-6d0d4543fcde",
+        "end2Id": "30558bc4-59e4-449d-8edc-7cbccc1451e9"
+      },
+      {
+        "id": "392297aa-0c61-4a8a-92ab-9c05bb0a7e21",
+        "end1Id": "67f42ba2-b930-4074-8726-1ca66665d429",
+        "end2Id": "02aa1ca5-8ea1-42f4-b1cc-3088be4299e7"
+      },
+      {
+        "id": "d9c2f045-cade-4f63-9cb9-f02c4ceb0bce",
+        "end1Id": "b15dc3f7-07f6-4298-8446-80ceca3f46f6",
+        "end2Id": "02aa1ca5-8ea1-42f4-b1cc-3088be4299e7"
+      },
+      {
+        "id": "b0b70598-a203-43be-a50f-48214bc0dda6",
+        "end1Id": "1cae420c-1eb8-4a48-a137-24e09f027919",
+        "end2Id": "02aa1ca5-8ea1-42f4-b1cc-3088be4299e7"
+      },
+      {
+        "id": "bd821654-be61-4b39-a541-71e21c26b7d7",
+        "end1Id": "3b9f192d-f48e-4c04-8f2f-960574c622b9",
+        "end2Id": "02aa1ca5-8ea1-42f4-b1cc-3088be4299e7"
+      }
+    ],
+    "title": "Organigramm",
+    "topicOverlapping": "overlap",
+    "floatingTopicFlexible": true,
+    "compactLayoutModeLevel": "Third",
+    "labelSortOrder": "manual",
+    "extensions": [
+      {
+        "provider": "org.xmind.ui.skeleton.structure.style",
+        "content": { "centralTopic": "org.xmind.ui.org-chart.down" }
+      }
+    ],
+    "theme": {
+      "calloutTopic": {
+        "id": "9270a7ee-046a-4b58-8630-2dbc5f50192d",
+        "properties": {
+          "fo:font-family": "Montserrat",
+          "fo:font-size": "14pt",
+          "fo:font-weight": "normal",
+          "fo:font-style": "normal",
+          "fo:color": "inherited",
+          "fo:text-transform": "manual",
+          "fo:text-decoration": "none",
+          "fo:text-align": "left",
+          "svg:fill": "#F2F2F2",
+          "fill-pattern": "solid",
+          "line-width": "inherited",
+          "line-color": "inherited",
+          "line-pattern": "inherited",
+          "border-line-color": "#F2F2F2",
+          "border-line-width": "inherited",
+          "border-line-pattern": "inherited",
+          "shape-class": "org.xmind.topicShape.ellipse",
+          "arrow-end-class": "inherited"
+        }
+      },
+      "map": {
+        "id": "9fd1a71a-55d5-4749-bb4f-b4171ca3b251",
+        "properties": {
+          "svg:fill": "#0D0D0D",
+          "multi-line-colors": "#F2F2F2 #F22816 #F2B807 #233ED9",
+          "color-list": "#FFFFFF #F2F2F2 #F22816 #F2B807 #233ED9 #0D0D0D",
+          "line-tapered": "none"
+        }
+      },
+      "centralTopic": {
+        "id": "8e17d4d7-075c-4462-8f77-1217280120b6",
+        "properties": {
+          "fo:font-family": "Montserrat",
+          "fo:font-size": "24pt",
+          "fo:font-weight": "500",
+          "fo:font-style": "normal",
+          "fo:color": "inherited",
+          "fo:text-transform": "manual",
+          "fo:text-decoration": "none",
+          "fo:text-align": "center",
+          "svg:fill": "#FFFFFF",
+          "fill-pattern": "solid",
+          "line-width": "3pt",
+          "line-color": "#FFFFFF",
+          "line-pattern": "solid",
+          "border-line-color": "inherited",
+          "border-line-width": "0pt",
+          "border-line-pattern": "inherited",
+          "shape-class": "org.xmind.topicShape.roundedhexagon",
+          "line-class": "org.xmind.branchConnection.roundedfold",
+          "arrow-end-class": "org.xmind.arrowShape.none",
+          "alignment-by-level": "inactived"
+        }
+      },
+      "minorTopic": {
+        "id": "dc34c405-b140-4962-b0e0-43b572b3108b",
+        "properties": {
+          "svg:fill": "#07f27e",
+          "fill-pattern": "solid",
+          "border-line-color": "#07f27e"
+        }
+      },
+      "floatingTopic": {
+        "id": "2789968b-1971-4141-b337-018ebb3380ac",
+        "properties": {
+          "fo:font-family": "Montserrat",
+          "fo:font-size": "18pt",
+          "fo:font-weight": "500",
+          "fo:font-style": "normal",
+          "fo:color": "inherited",
+          "fo:text-transform": "manual",
+          "fo:text-decoration": "none",
+          "fo:text-align": "left",
+          "svg:fill": "#F2B807",
+          "fill-pattern": "solid",
+          "line-width": "2pt",
+          "line-color": "inherited",
+          "line-pattern": "solid",
+          "border-line-color": "#F2B807",
+          "border-line-width": "0pt",
+          "border-line-pattern": "inherited",
+          "shape-class": "org.xmind.topicShape.roundedhexagon",
+          "line-class": "org.xmind.branchConnection.roundedElbow",
+          "arrow-end-class": "org.xmind.arrowShape.none"
+        }
+      },
+      "expiredTopic": {
+        "id": "09c2eee5-5741-4481-b91d-1f5b304fd4f2",
+        "properties": {
+          "fo:text-decoration": "line-through",
+          "fill-pattern": "none"
+        }
+      },
+      "summary": {
+        "id": "3688ce71-0829-4109-a315-9243d5f65af3",
+        "properties": {
+          "line-width": "2pt",
+          "line-color": "#FFFFFF",
+          "line-pattern": "solid",
+          "shape-class": "org.xmind.summaryShape.round"
+        }
+      },
+      "importantTopic": {
+        "id": "91d34c28-553d-4282-833e-a3d262888492",
+        "properties": {
+          "svg:fill": "#41f207",
+          "fill-pattern": "solid",
+          "border-line-color": "#41f207"
+        }
+      },
+      "mainTopic": {
+        "id": "1f5c0fbb-fd2d-435e-a53d-506433cd660e",
+        "properties": {
+          "fo:font-family": "Montserrat",
+          "fo:font-size": "18pt",
+          "fo:font-weight": "500",
+          "fo:font-style": "normal",
+          "fo:color": "inherited",
+          "fo:text-transform": "manual",
+          "fo:text-decoration": "none",
+          "fo:text-align": "left",
+          "svg:fill": "inherited",
+          "fill-pattern": "solid",
+          "line-width": "2pt",
+          "line-color": "inherited",
+          "line-pattern": "inherited",
+          "border-line-color": "inherited",
+          "border-line-width": "0pt",
+          "border-line-pattern": "inherited",
+          "shape-class": "org.xmind.topicShape.roundedhexagon",
+          "line-class": "org.xmind.branchConnection.roundedElbow",
+          "arrow-end-class": "inherited"
+        }
+      },
+      "subTopic": {
+        "id": "570dee42-cb47-4140-81d1-b48c005c5e8b",
+        "properties": {
+          "fo:font-family": "Montserrat",
+          "fo:font-size": "14pt",
+          "fo:font-weight": "400",
+          "fo:font-style": "normal",
+          "fo:color": "#000000FF",
+          "fo:text-transform": "manual",
+          "fo:text-decoration": "none",
+          "fo:text-align": "left",
+          "svg:fill": "#FFFFFFFF",
+          "fill-pattern": "solid",
+          "line-width": "inherited",
+          "line-color": "inherited",
+          "line-pattern": "inherited",
+          "border-line-color": "inherited",
+          "border-line-width": "0pt",
+          "border-line-pattern": "inherited",
+          "shape-class": "org.xmind.topicShape.roundedRect",
+          "line-class": "org.xmind.branchConnection.roundedElbow",
+          "arrow-end-class": "inherited"
+        }
+      },
+      "relationship": {
+        "id": "f93dae8f-cf3f-403b-ac96-cf9c416de2eb",
+        "properties": {
+          "fo:font-family": "'Montserrat','NeverMind','Microsoft YaHei','PingFang SC','Microsoft JhengHei','sans-serif',sans-serif",
+          "fo:font-size": "13pt",
+          "fo:font-weight": "normal",
+          "fo:font-style": "normal",
+          "fo:color": "inherited",
+          "fo:text-transform": "manual",
+          "fo:text-decoration": "none",
+          "fo:text-align": "center",
+          "line-width": "2",
+          "line-color": "#FFFFFF",
+          "line-pattern": "solid",
+          "shape-class": "org.xmind.relationshipShape.straight",
+          "arrow-begin-class": "org.xmind.arrowShape.dot",
+          "arrow-end-class": "org.xmind.arrowShape.triangle"
+        }
+      },
+      "boundary": {
+        "id": "270c0335-3f82-4bf3-8f39-9ff837124dc5",
+        "properties": {
+          "fo:font-family": "'Montserrat','NeverMind','Microsoft YaHei','PingFang SC','Microsoft JhengHei','sans-serif',sans-serif",
+          "fo:font-size": "14pt",
+          "fo:font-weight": "normal",
+          "fo:font-style": "normal",
+          "fo:color": "inherited",
+          "fo:text-transform": "manual",
+          "fo:text-decoration": "none",
+          "fo:text-align": "center",
+          "svg:fill": "#FFFFFF",
+          "fill-pattern": "solid",
+          "line-width": "2",
+          "line-color": "#FFFFFF",
+          "line-pattern": "dash",
+          "shape-class": "org.xmind.boundaryShape.roundedPolygon"
+        }
+      },
+      "summaryTopic": {
+        "id": "6e439a28-14eb-4d5c-b152-67d5403cb9f4",
+        "properties": {
+          "fo:font-family": "Montserrat",
+          "fo:font-size": "14pt",
+          "fo:font-weight": "400",
+          "fo:font-style": "normal",
+          "fo:color": "inherited",
+          "fo:text-transform": "manual",
+          "fo:text-decoration": "none",
+          "fo:text-align": "center",
+          "svg:fill": "#F2F2F2",
+          "fill-pattern": "solid",
+          "line-width": "inherited",
+          "line-color": "inherited",
+          "line-pattern": "inherited",
+          "border-line-color": "#F2F2F2",
+          "border-line-width": "0pt",
+          "border-line-pattern": "inherited",
+          "shape-class": "org.xmind.topicShape.roundedRect",
+          "line-class": "org.xmind.branchConnection.roundedElbow",
+          "arrow-end-class": "inherited"
+        }
+      },
+      "global": {
+        "id": "b020944f-5bd4-4f90-a3f2-68c7b4379aaf",
+        "properties": { "line-width": "5pt" }
+      },
+      "skeletonThemeId": "fcb8419de37a2e68d873f8b781",
+      "colorThemeId": "Energy-#0D0D0D-MULTI_LINE_COLORS"
+    }
+  }
+]
