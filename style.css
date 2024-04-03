@@ -13,6 +13,7 @@ body {
   color: #333;
   line-height: 1.6;
   padding: 20px;
+  padding-top: 50px; /* Text weiter vom oberen Rand entfernen */
 }
 
 #text {
@@ -20,11 +21,13 @@ body {
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
+  font-size: 20px; /* Größere Textgröße */
 }
 
 #options {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between; /* Buttons nebeneinander ausrichten */
 }
 
 button {
@@ -32,10 +35,11 @@ button {
   color: #fff;
   border: none;
   border-radius: 3px;
-  padding: 10px 20px;
+  padding: 15px 30px; /* Größere Buttons */
   margin-bottom: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-size: 18px; /* Größere Textgröße für Buttons */
 }
 
 button:hover {
