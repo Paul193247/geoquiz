@@ -1,6 +1,7 @@
 const text_div = document.getElementById("text");
 const options_div = document.getElementById("options");
 let popup_div; // Variable, um das Popup-Element zu speichern
+let buttonClicked = false; // Variable, um zu verfolgen, ob der Button bereits geklickt wurde
 
 function convertToPathFormat(inputData) {
   const data = inputData[0]["rootTopic"];
@@ -18,7 +19,7 @@ function convertToPathFormat(inputData) {
     new_path["options"].push(option);
   });
 
-  return JSON.stringify(new_path, null, 4);
+  return new_path;
 }
 
 function convertChildToPathFormat(topic) {
@@ -29,15 +30,25 @@ function convertChildToPathFormat(topic) {
 
   if ("children" in topic) {
     topic["children"]["attached"].forEach((child) => {
-      const notes = child["notes"]["plain"]["content"].split("text:");
-      const text = notes[0];
-      const popup = notes[1];
-      const option = {
-        text: text,
-        popup: popup,
-        following: convertChildToPathFormat(child),
-      };
-      following["options"].push(option);
+      try {
+        const notes = child["notes"]["plain"]["content"].split("text:");
+        const text = notes[0];
+        const popup = notes[1];
+        const option = {
+          text: text,
+          popup: popup,
+          following: convertChildToPathFormat(child),
+        };
+        following["options"].push(option);
+      } catch {
+        const text = child["title"];
+        const option = {
+          text: text,
+          popup: text,
+          following: convertChildToPathFormat(child),
+        };
+        following["options"].push(option);
+      }
     });
   }
 
@@ -47,17 +58,23 @@ function convertChildToPathFormat(topic) {
 let path; // Variable für das JSON-Objekt
 
 // Laden der JSON-Datei
-fetch("output.json")
+fetch("content.json")
   .then((response) => response.json()) // Parsen der JSON-Datei
   .then((data) => {
     path = convertToPathFormat(data); // Speichern des analysierten JSON-Objekts in der path-Variablen
     setUp(path); // Aufrufen von setUp mit dem geladenen Objekt
+    console.log(path);
   });
 
 function getOnclick(path) {
   return () => {
-    hidePopup(); // Verstecke das Popup, wenn der Benutzer auf den Button klickt
-    setUp(path);
+    if (buttonClicked) {
+      hidePopup(); // Verstecke das Popup, wenn der Benutzer auf den Button klickt
+      setUp(path);
+    } else {
+      buttonClicked = true;
+      showPopup(path.text); // Zeige das Popup mit dem Text anstatt zu wechseln
+    }
   };
 }
 
@@ -82,7 +99,7 @@ function setUp(path) {
   }
 }
 
-function showPopup(text, button) {
+function showPopup(text) {
   hidePopup(); // Verstecke zuerst jedes vorhandene Popup
 
   // Erstelle das Pop-up-Element
@@ -90,10 +107,9 @@ function showPopup(text, button) {
   popup_div.classList.add("popup");
   popup_div.innerHTML = text;
 
-  // Positioniere das Pop-up relativ zum Button
-  const buttonRect = button.getBoundingClientRect();
-  popup_div.style.left = buttonRect.left + "px";
-  popup_div.style.top = buttonRect.top - popup_div.offsetHeight + "px";
+  // Positioniere das Pop-up-Element relativ zum options_div
+  popup_div.style.left = options_div.offsetLeft + "px";
+  popup_div.style.top = options_div.offsetTop + options_div.offsetHeight + "px";
 
   // Füge das Pop-up-Element zum Dokument hinzu
   document.body.appendChild(popup_div);

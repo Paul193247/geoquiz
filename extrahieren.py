@@ -20,21 +20,36 @@ def convert_to_path_format(input_file, output_file):
 
 def convert_child_to_path_format(topic):
     following = {
-        "text": topic["title"],
+        "text": topic["notes"]["plain"]["content"].split("text:")[1],
         "options": []
     }
 
     if "children" in topic:
         for child in topic["children"]["attached"]:
-            notes = child["notes"]["plain"]["content"].split("text:")
-            text = notes[0]
-            popup = notes[1]
-            option = {
-                "text": text,
-                "popup": popup,
-                "following": convert_child_to_path_format(child)
-            }
-            following["options"].append(option)
+            if "notes" in child.keys():
+                notes = child["notes"]["plain"]["content"].split("text:")
+                print(notes)
+                if len(notes) == 2:
+                    text = notes[0]
+                    popup = notes[1]
+                    option = {
+                        "text": child["title"],
+                        "popup": popup,
+                        "following": convert_child_to_path_format(child)
+                    }
+                    following["options"].append(option)
+                else:
+                    text = notes[0]
+                    option = {
+                        "text": child["title"],
+                        "popup": text,
+                    }
+            else:
+                option = {
+                    "text": child["title"],
+                    "following": convert_child_to_path_format(child)
+                }
+                following["options"].append(option)
 
     return following
 
