@@ -74,12 +74,12 @@ fetch("content.json")
 
 function getOnclick(path, button) {
   return () => {
-    if (buttonClicked) {
+    if (buttonClicked == button) {
       buttonClicked = false;
       hidePopup();
       setUp(path);
     } else {
-      buttonClicked = true;
+      buttonClicked = button;
 
       if (button.popup) {
         showPopup(button.popup);
