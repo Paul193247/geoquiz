@@ -5,7 +5,7 @@ def convert_to_path_format(input_file, output_file):
         data = json.load(f)[0]["rootTopic"]
 
     path = {
-        "text": data["title"],
+        "text": "Stellt euch vor ihr seid ein großes Logistik Unternehmen in den USA, genauer gesagt in Oklahoma City: </br> Ihr habt einen Auftrag von einem großen Elektronik Hersteller. Ihr sollt 10 Standart Container, innerhalb von 5 Wochen, von Oklahoma City nach Kairo zu bringen. Der Hersteller zahlt dafür das ihr euch um die komplette Zustellung kümmert insgesamt 500.000 Euro. </br> Wählt zuerst eine der 5 Städte aus von denen ihr eure Fracht weiter nach Kairo Transportieren wollt: ",
         "options": []
     }
     for topic in data["children"]["attached"]:
@@ -26,20 +26,15 @@ def convert_child_to_path_format(topic):
 
     if "children" in topic:
         for child in topic["children"]["attached"]:
-            if "notes" in child.keys():
-                option = {
-                    "text": child["title"],
-                    "popup": child["notes"]["plain"]["content"],
-                    "following": convert_child_to_path_format(child)
-                }
-                following["options"].append(option)
-            else:
-                option = {
-                    "text": child["title"],
-                    "following": convert_child_to_path_format(child)
-                }
-                following["options"].append(option)
-
+            notes = child["notes"]["plain"]["content"].split("text:")
+            text = notes[0]
+            popup = notes[1]
+            option = {
+                "text": text,
+                "popup": popup,
+                "following": convert_child_to_path_format(child)
+            }
+            following["options"].append(option)
 
     return following
 
