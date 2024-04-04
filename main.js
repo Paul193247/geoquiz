@@ -76,11 +76,11 @@ function getOnclick(path) {
   return () => {
     if (buttonClicked) {
       buttonClicked = false;
-      hidePopup(); // Verstecke das Popup, wenn der Benutzer auf den Button klickt
+      hidePopup();
       setUp(path);
     } else {
       buttonClicked = true;
-      showPopup(path.text); // Zeige das Popup mit dem Text anstatt zu wechseln
+      showPopup(path.popup);
     }
   };
 }
