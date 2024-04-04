@@ -24,7 +24,7 @@ function convertToPathFormat(inputData) {
 
 function convertChildToPathFormat(topic) {
   let following;
-  if ("notes" in Object.keys(topic)) {
+  if (Object.keys(topic).includes("notes")) {
     following = {
       text: topic["notes"]["plain"]["content"].split("text:")[1],
       options: [],
