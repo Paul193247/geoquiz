@@ -23,19 +23,25 @@ function convertToPathFormat(inputData) {
 }
 
 function convertChildToPathFormat(topic) {
-  const following = {
-    text: topic["title"],
-    options: [],
-  };
-
+  let following;
+  if ("notes" in Object.keys(topic)) {
+    following = {
+      text: topic["notes"]["plain"]["content"].split("text:")[1],
+      options: [],
+    };
+  } else {
+    following = {
+      text: topic["title"],
+      options: [],
+    };
+  }
   if ("children" in topic) {
     topic["children"]["attached"].forEach((child) => {
       try {
         const notes = child["notes"]["plain"]["content"].split("text:");
-        const text = notes[0];
-        const popup = notes[1];
+        const popup = notes[0];
         const option = {
-          text: text,
+          text: child["title"],
           popup: popup,
           following: convertChildToPathFormat(child),
         };
@@ -69,6 +75,7 @@ fetch("content.json")
 function getOnclick(path) {
   return () => {
     if (buttonClicked) {
+      buttonClicked = false;
       hidePopup(); // Verstecke das Popup, wenn der Benutzer auf den Button klickt
       setUp(path);
     } else {
