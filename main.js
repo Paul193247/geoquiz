@@ -102,12 +102,6 @@ function setUp(path) {
       button.innerHTML = option.text;
       button.onclick = getOnclick(option.following, option);
 
-      // Überprüfe, ob ein Popup-Key vorhanden ist, bevor wir das Popup erstellen
-      if (option.popup) {
-        button.onmouseenter = () => showPopup(option.popup, button);
-        button.onmouseleave = () => hidePopup();
-      }
-
       options_div.append(button);
     }
   }
