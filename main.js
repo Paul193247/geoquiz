@@ -2,16 +2,57 @@ const text_div = document.getElementById("text");
 const options_div = document.getElementById("options");
 let popup_div; // Variable, um das Popup-Element zu speichern
 
+function convertToPathFormat(inputData) {
+  const data = inputData[0]["rootTopic"];
+
+  const new_path = {
+    text: "Stellt euch vor ihr seid ein großes Logistik Unternehmen in den USA, genauer gesagt in Oklahoma City: </br> Ihr habt einen Auftrag von einem großen Elektronik Hersteller. Ihr sollt 10 Standart Container, innerhalb von 5 Wochen, von Oklahoma City nach Kairo zu bringen. Der Hersteller zahlt dafür das ihr euch um die komplette Zustellung kümmert insgesamt 500.000 Euro. </br> Wählt zuerst eine der 5 Städte aus von denen ihr eure Fracht weiter nach Kairo Transportieren wollt: ",
+    options: [],
+  };
+
+  data["children"]["attached"].forEach((topic) => {
+    const option = {
+      text: topic["title"],
+      following: convertChildToPathFormat(topic),
+    };
+    new_path["options"].push(option);
+  });
+
+  return JSON.stringify(new_path, null, 4);
+}
+
+function convertChildToPathFormat(topic) {
+  const following = {
+    text: topic["title"],
+    options: [],
+  };
+
+  if ("children" in topic) {
+    topic["children"]["attached"].forEach((child) => {
+      const notes = child["notes"]["plain"]["content"].split("text:");
+      const text = notes[0];
+      const popup = notes[1];
+      const option = {
+        text: text,
+        popup: popup,
+        following: convertChildToPathFormat(child),
+      };
+      following["options"].push(option);
+    });
+  }
+
+  return following;
+}
+
 let path; // Variable für das JSON-Objekt
 
 // Laden der JSON-Datei
 fetch("output.json")
   .then((response) => response.json()) // Parsen der JSON-Datei
   .then((data) => {
-    path = data; // Speichern des analysierten JSON-Objekts in der path-Variablen
+    path = convertToPathFormat(data); // Speichern des analysierten JSON-Objekts in der path-Variablen
     setUp(path); // Aufrufen von setUp mit dem geladenen Objekt
-  })
-  .catch((error) => console.error("Error loading JSON file:", error));
+  });
 
 function getOnclick(path) {
   return () => {
