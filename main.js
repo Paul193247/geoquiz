@@ -72,7 +72,7 @@ fetch("content.json")
     console.log(path);
   });
 
-function getOnclick(path) {
+function getOnclick(path, button) {
   return () => {
     if (buttonClicked) {
       buttonClicked = false;
@@ -80,7 +80,14 @@ function getOnclick(path) {
       setUp(path);
     } else {
       buttonClicked = true;
-      showPopup(path.popup);
+
+      if (button.popup) {
+        showPopup(button.popup);
+      } else {
+        buttonClicked = false;
+        hidePopup();
+        setUp(path);
+      }
     }
   };
 }
@@ -93,7 +100,7 @@ function setUp(path) {
       const button = document.createElement("button");
       button.id = option.text;
       button.innerHTML = option.text;
-      button.onclick = getOnclick(option.following);
+      button.onclick = getOnclick(option.following, option);
 
       // Überprüfe, ob ein Popup-Key vorhanden ist, bevor wir das Popup erstellen
       if (option.popup) {
