@@ -7,7 +7,7 @@ function convertToPathFormat(inputData) {
   const data = inputData[0]["rootTopic"];
 
   const new_path = {
-    text: "Stellt euch vor ihr seid ein großes Logistik Unternehmen in den USA, genauer gesagt in Oklahoma City: </br> Ihr habt einen Auftrag von einem großen Elektronik Hersteller. Ihr sollt 10 Standart Container, innerhalb von 5 Wochen, von Oklahoma City nach Kairo zu bringen. Der Hersteller zahlt dafür das ihr euch um die komplette Zustellung kümmert insgesamt 500.000 Euro. </br> Wählt zuerst eine der 5 Städte aus von denen ihr eure Fracht weiter nach Kairo Transportieren wollt: ",
+    text: "Stellt euch vor ihr seid ein großes Logistik Unternehmen in den USA, genauer gesagt in Oklahoma City: </br> Ihr habt einen Auftrag von einem großen Elektronik Hersteller. Ihr sollt 10 Standart Container, innerhalb von 50 Tagen, von Oklahoma City nach Kairo zu bringen. Der Hersteller zahlt dafür das ihr euch um die komplette Zustellung kümmert insgesamt 400.000 Euro. </br> Wählt zuerst eine der 5 Städte aus von denen ihr eure Fracht weiter nach Kairo Transportieren wollt: ",
     options: [],
   };
 
